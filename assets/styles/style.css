@@ -1,0 +1,31 @@
+:root {
+    --cor-rosa:#BF4968; 
+    --cor-esverdeado-escuro:#3A848C;
+    --cor-esverdeado-claro: #6AA69B;
+    --cor-laranja-claro:#F2994B;
+    --cor-laranja-escuro: #D95F43;
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+
+    --ff-fjalla: 'Fjalla One', sans-serif;
+    --ff-work: 'Work Sans', sans-serif;
+
+    --fw-semibold: 600;
+    --fw-regular: 400;
+
+    --fs-1: 12px;
+    --fs-2: 14px;
+    --fs-3: 16px;
+    --fs-4: 18px;
+    --fs-5: 20px;
+    --fs-6: 24px;
+    --fs-7: 32px;
+}
+
+body {
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+    font-family: var(--ff-work);
+    font-size: var(--fs-3);
+    font-weight: var(--fw-regular);
+}
