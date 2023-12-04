@@ -1,0 +1,21 @@
+.cabecalho__menu {
+    background-color: var(--cor-preto);
+    font-family: var(--ff-fjalla);
+    height: 258px;
+    padding: 0 1.5rem;
+    white-space: nowrap;
+}
+
+@media (min-width: 720px) {
+    .cabecalho__menu {
+        height: 217px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .cabecalho__menu {
+        font-size: var(--fs-5);
+        height: 100px;
+        padding: 0 7.5rem;
+    }
+}

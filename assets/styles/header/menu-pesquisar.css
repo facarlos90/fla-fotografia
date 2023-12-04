@@ -1,0 +1,21 @@
+.menu__pesquisar {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+@media (min-width: 720px) {
+    .menu__pesquisar {
+        width: 312px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .menu__pesquisar {
+        margin-bottom: 0;
+        width: 384px;
+    }
+}

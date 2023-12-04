@@ -1,0 +1,18 @@
+.menu__input {
+    background-color: var(--cor-preto);
+    background-image: url(../../images/icone-busca.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border: none;
+    color: var(--cor-branco);
+    line-height: 25px;
+    outline: none;
+    padding-left: 5px;
+    width: 98%;
+}
+
+@media (min-width: 1440px) {
+    .menu__input {
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,22 @@
+.menu__titulo {
+    background-image: url(../../images/logo-grande.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 40px 50px;
+    width: 100%;
+}
+
+@media (min-width: 720px) {
+    .menu__titulo {
+        padding: 40px 55px;
+        width: auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .menu__titulo {
+        background-image: url(../../images/logo-menor.png);
+        padding: 43px 55px;
+    }
+}

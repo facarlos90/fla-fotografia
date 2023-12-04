@@ -1,3 +1,10 @@
+@import url(./header/cabecalho-menu.css);
+@import url(./header/menu-input.css);
+@import url(./header/menu-item.css);
+@import url(./header/menu-label.css);
+@import url(./header/menu-pesquisar.css);
+@import url(./header/menu-titulo.css);
+
 :root {
     --cor-rosa:#BF4968; 
     --cor-esverdeado-escuro:#3A848C;
@@ -28,4 +35,5 @@ body {
     font-family: var(--ff-work);
     font-size: var(--fs-3);
     font-weight: var(--fw-regular);
+    height: 100vh;
 }
