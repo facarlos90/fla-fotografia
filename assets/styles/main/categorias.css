@@ -1,0 +1,9 @@
+.categorias {
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+    .categorias {
+        margin-bottom: 1.5rem;
+    }
+}

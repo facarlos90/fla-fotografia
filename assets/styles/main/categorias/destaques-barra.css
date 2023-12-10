@@ -1,0 +1,17 @@
+.destaques__barra {
+    width: 131px;
+    height: 2px;
+    background-color: var(--cor-preto);
+}
+
+@media (min-width: 720px) {
+    .destaques__barra {
+        width: 417.96px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .destaques__barra {
+        width: 416px;
+    }
+}

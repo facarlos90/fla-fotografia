@@ -5,6 +5,15 @@
 @import url(./header/menu-titulo.css);
 @import url(./main/principal.css);
 @import url(./main/banner.css);
+@import url(./main/categorias.css);
+@import url(./main/categorias/categorias-titulo.css);
+@import url(./main/categorias/categorias-lista.css);
+@import url(./main/categorias/lista-itens.css);
+@import url(./main/categorias/categorias-destaques.css);
+@import url(./main/categorias/destaques.css);
+@import url(./main/categorias/destaques-titulo.css);
+@import url(./main/categorias/destaques-barra.css);
+@import url(./main/categorias/categorias-imagem.css);
 
 :root {
     --cor-rosa:#BF4968; 
@@ -46,4 +55,12 @@ img {
 
 img:hover {
     opacity: 0.7;
+}
+
+/* Estilos Compartilhados */
+.categorias__titulo,
+.destaques {
+    font-family: var(--ff-fjalla);
+    font-size: 20px;
+    text-transform: uppercase;
 }

@@ -1,0 +1,10 @@
+.categorias__lista {
+    color: var(--cor-branco);
+    text-align: center;
+}
+
+@media (min-width: 720px) {
+    .categorias__lista {
+        height: 304px;
+    }
+}

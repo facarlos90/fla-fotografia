@@ -1,0 +1,28 @@
+.categorias__imagem {
+    margin-bottom: 1.5rem;
+    background-image: url("../../../images/destaques-360.png");
+    background-repeat: no-repeat;
+    height: 271px;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.categorias__imagem:hover {
+    opacity: 0.7;
+}
+
+@media (min-width: 720px) {
+    .categorias__imagem {
+        background-image: url("../../../images/apresentacao-720.png");
+    }
+}
+
+@media (min-width: 1440px) {
+    .categorias__imagem {
+        height: 224px;
+        margin-bottom: 0;
+        background-position-y: bottom;
+    }
+}

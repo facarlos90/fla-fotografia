@@ -1,0 +1,11 @@
+.destaques {
+    padding: 30px 0 10px;
+    white-space: nowrap;
+}
+
+@media (min-width: 1440px) {
+    .destaques {
+        padding: 0;
+        width: 416px;
+    }
+}

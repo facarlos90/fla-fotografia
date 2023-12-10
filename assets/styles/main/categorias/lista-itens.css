@@ -1,0 +1,33 @@
+.lista__item {
+    padding: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.5s;
+    opacity: 1;
+    min-width: 282px;
+}
+
+.lista__item:hover {
+    opacity: 0.7;
+}
+
+.categorias__lista .lista__item:nth-child(1),
+.lista__item:nth-child(5) {
+    background-color: var(--cor-laranja-claro);
+}
+
+.categorias__lista .lista__item:nth-child(2),
+.lista__item:nth-child(6) {
+    background-color: var(--cor-laranja-escuro);
+}
+
+.categorias__lista .lista__item:nth-child(3),
+.lista__item:nth-child(7) {
+    background-color: var(--cor-rosa);
+}
+
+.categorias__lista .lista__item:nth-child(4),
+.lista__item:nth-child(8) {
+    background-color: var(--cor-esverdeado-escuro);
+}

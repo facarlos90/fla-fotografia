@@ -1,0 +1,9 @@
+.categorias__titulo {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 1440px) {
+    .categorias__titulo {
+        margin-bottom: 0;
+    }
+}
