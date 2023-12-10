@@ -1,5 +1,6 @@
 @media (min-width: 1440px) {
     .categorias {
+        column-gap: 1.5rem;
         display: grid;
         grid-template-columns: calc(50% - 0.75rem);
         grid-template-areas:
@@ -8,7 +9,6 @@
             "lista imagem";
         grid-template-rows: auto 1fr auto;
         row-gap: 1rem;
-        column-gap: 1.5rem;
     }
 
     .categorias__titulo {

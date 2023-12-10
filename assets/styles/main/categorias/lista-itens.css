@@ -1,11 +1,11 @@
 .lista__item {
+    cursor: pointer;
+    min-width: 282px;
+    opacity: 1;
     padding: 1.5rem;
     text-transform: uppercase;
-    cursor: pointer;
-    user-select: none;
     transition: 0.5s;
-    opacity: 1;
-    min-width: 282px;
+    user-select: none;
 }
 
 .lista__item:hover {
