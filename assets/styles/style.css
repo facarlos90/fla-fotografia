@@ -14,6 +14,8 @@
 @import url(./main/categorias/destaques-titulo.css);
 @import url(./main/categorias/destaques-barra.css);
 @import url(./main/categorias/categorias-imagem.css);
+@import url(./main/eventos/eventos-titulo.css);
+@import url(./main/eventos/eventos-item.css);
 
 :root {
     --cor-rosa:#BF4968; 
@@ -59,8 +61,27 @@ img:hover {
 
 /* Estilos Compartilhados */
 .categorias__titulo,
-.destaques {
+.destaques, .eventos__titulo {
     font-family: var(--ff-fjalla);
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.eventos__botao button:hover,
+.agenda__botao button:hover,
+.eventos__item button:hover,
+.agenda__atracao button:hover {
+    background-color: var(--cor-laranja-claro);
+}
+
+.eventos__botao button,
+.agenda__botao button {
+    background-color: var(--cor-rosa);
+    border: none;
+    color: var(--cor-branco);
+    cursor: pointer;
+    outline: none;
+    padding: .75rem 0;
+    transition: .5s;
+    width: 148px;
 }

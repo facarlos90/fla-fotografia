@@ -1,0 +1,48 @@
+.eventos__item {
+    background-color: var(--cor-esverdeado-claro);
+    height: 318px;
+    padding-bottom: 1rem;
+    width: 307px;
+}
+
+.eventos__item img {
+    width: 100%;
+}
+
+.eventos__item h3 {
+    font-size: var(--fs-4);
+    font-weight: var(--fw-semibold);
+}
+
+.eventos__item h4,
+.eventos__item h5 {
+    font-size: var(--fs-3);
+}
+
+.eventos__item h3,
+.eventos__item h4,
+.eventos__item h5 {
+    padding-left: 1rem;
+}
+
+.eventos__item button {
+    background-color: var(--cor-laranja-escuro);
+    border: none;
+    color: var(--cor-branco);
+    cursor: pointer;
+    margin-right: 1rem;
+    outline: none;
+    padding: .5rem 0;
+    text-align: center;
+    transition: .5s;
+    width: 80px;
+}
+
+@media (min-width: 1440px) {
+    .eventos__item {
+        width: 280px;
+    }
+}
+
+
+
