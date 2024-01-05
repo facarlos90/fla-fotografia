@@ -1,0 +1,23 @@
+.agenda__item {
+    background-color: var(--cor-laranja-claro);
+    color: var(--cor-branco);
+    margin: 0 1rem 1rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.agenda__item img {
+    width: 100%;
+}
+
+@media (min-width: 720px) {
+    .agenda__item {
+        width: 308px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .agenda__item {
+        width: 330px;
+    }
+}

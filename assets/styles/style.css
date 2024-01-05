@@ -16,6 +16,10 @@
 @import url(./main/categorias/categorias-imagem.css);
 @import url(./main/eventos/eventos-titulo.css);
 @import url(./main/eventos/eventos-item.css);
+@import url(./main/agenda/agenda-titulo.css);
+@import url(./main/agenda/agenda-item.css);
+@import url(./main/agenda/agenda-informacoes.css);
+@import url(./main/agenda/agenda-atracao.css);
 
 :root {
     --cor-rosa:#BF4968; 
@@ -61,7 +65,9 @@ img:hover {
 
 /* Estilos Compartilhados */
 .categorias__titulo,
-.destaques, .eventos__titulo {
+.destaques, 
+.eventos__titulo, 
+.agenda__titulo {
     font-family: var(--ff-fjalla);
     font-size: 20px;
     text-transform: uppercase;

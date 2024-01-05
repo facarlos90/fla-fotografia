@@ -1,0 +1,14 @@
+.agenda__informacoes {
+    background-color: var(--cor-laranja-escuro);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.agenda__informacoes h3 {
+    font-size: 2rem;
+}
+
+.agenda__informacoes h4,
+.agenda__informacoes h5 {
+    font-size: 1.5rem;
+}

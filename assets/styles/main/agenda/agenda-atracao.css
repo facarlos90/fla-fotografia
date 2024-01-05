@@ -1,0 +1,19 @@
+.agenda__atracao {
+    font-size: var(--fs-4);
+    font-weight: var(--fw-semibold);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.agenda__atracao button {
+    background-color: var(--cor-rosa);
+    border: none;
+    color: var(--cor-branco);
+    cursor: pointer;
+    margin-top: 1rem;
+    outline: none;
+    padding: 0.5rem 0;
+    transition: .5s;
+    width: 125px;
+}
+
