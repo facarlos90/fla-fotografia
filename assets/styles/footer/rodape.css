@@ -1,0 +1,23 @@
+.rodape {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    font-size: var(--fs-2);
+    line-height: 2;
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+    white-space: nowrap;
+}
+
+@media (min-width: 720px) {
+    .rodape {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .rodape {
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+    }
+}

@@ -1,0 +1,10 @@
+.rodape__logo {
+    font-size: var(--fs-1);
+}
+
+.rodape__logo h4 {
+    background-image: url("../../images/logo-rodape.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+}
