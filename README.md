@@ -1,36 +1,51 @@
-# Fllávia Cristina - Fotografia
+# Flávia Cristina - Fotografia
 
-Trata-se de um site que tem o intuito de divulgar e expor alguns trabalhos fotográficos.
+Trata-se de um site que tem o intuito de divulgar e expor alguns trabalhos fotográficos, criado especialmente para fixar os conhecimentos adquiridos no curso.
 
-![](https://github.com/facarlos90/fla-fotografia/blob/main/capa.png)
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Flávia Cristina - Fotografia**
+| :label: Tecnologias | html, css, grid, flexbox
+| :rocket: URL         | https://fla-fotografia.vercel.app
+| :fire: Desafio     | 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://github.com/facarlos90/fla-fotografia/blob/main/capa.png#vitrinedev)
 
 ## Detalhes do projeto
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
 
 Projeto em desenvolvimento para colocar em prática e fixar os conhecimentos adquiridos no Curso "Praticando CSS: Grid e Flexbox" da Alura. 
 
-O site irá mostar dados visuais dos álbuns criados pela banda CasaBlanca, além de reproduzir as músicas que o usuário quiser ouvir através de um clique, simulando os atuais reprodutores do mercado.
+A página (criada especialmente para este curso), irá emular um site, que seria voltado à divulgação dos trabalhos fotográficos de uma profissional da fotografia.
 
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: Produzir um projeto completo e responsivo com CSS grid e flexbox.
-- `Funcionalidade 2`: Base do projeto será com mobile-first.
+- `Funcionalidade 1`: HTML - fundamental para criar as estruturas da página
+- `Funcionalidade 2`: css - fundamental para criar os estilos que dão vida ao projeto e também na construção da organização e disposição dos elementos na página com **Flexbox** e **Grid**. Algumas propriedades que foram abordadas:
+  - `display: flex`;
+  - `flex-direction`;
+  - `flex-wrap`;
+  - `flex-grow`;
+  - `order`;
+  - `display: grid`;
+  - `grid-column` e `grid-row`;
+  - `grid-area`;
+  - `grid-template-areas`;
+  - `grid-template-columns`;
+  - `column-gap`, `gap` e `row-gap`;
+  - `align` e `justify`;.
 
 # 📁 Acesso ao projeto
 
-Você pode acessar o código do projeto inicial, clicando no link do GitHub pages ou baixá-lo.
+Neste repositório você tem acesso a todo o material produzido no curso.
 
 # 🛠️ Abrir e rodar o projeto
 
-Após baixar o projeto, você pode abrir o arquivo com algum navegador. Para isso:
-  * Procure o local aonde o arquivo está, abra a pasta e dê dois cliques no arquivo index.html
-
-Seu navegador padrão deve abrir e mostrar a página.
-
-Ou acessando diretamente pelo link do GitHub pages.
+Para abrir e rodar o projeto, basta abrir o aquivo `index.html` no navegador.
 
 # Autor
 
